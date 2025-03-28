@@ -4,30 +4,33 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  function handleClick(){
+    alert("i am clicked")
+  }
+  const handleClick3 = () =>{
+    alert("btn - 3 is clicked")
+  }
+  const add5 =(number) => {
+    return alert(number+5)
+  }
 
   return (
     <>
-      <div>
-        <a href="https://vite.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
+
       <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      {/* we will not call the function here. if we call the function here. it will be clickd automatically */}
+      {/* option -1  */}
+      <button onClick={handleClick}>Click Me</button>
+      {/* option - 2 */}
+      <button onClick={function handleclick2(){
+        alert("Btn 2 is clicked")
+      }}> click me 2</button>
+      {/* opton -3 arrow function mostly used this way*/}
+      <button onClick={handleClick3} >Click me 3</button>
+      {/* opton -4 arrow function  inline*/}
+      <button onClick={() => alert("btn -4 clicked")} >Click me 4</button>
+      {/* when need to pass parameter */}
+      <button onClick={() => add5(50)}>Add 5</button>
     </>
   )
 }
