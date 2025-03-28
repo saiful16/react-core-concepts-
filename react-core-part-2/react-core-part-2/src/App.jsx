@@ -2,6 +2,8 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Counter from './Counter'
+import Batsman from './Batsmans'
 
 function App() {
   function handleClick(){
@@ -18,6 +20,9 @@ function App() {
     <>
 
       <h1>Vite + React</h1>
+      <Batsman></Batsman>
+      <Counter></Counter>
+
       {/* we will not call the function here. if we call the function here. it will be clickd automatically */}
       {/* option -1  */}
       <button onClick={handleClick}>Click Me</button>
