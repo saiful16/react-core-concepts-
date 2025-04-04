@@ -1,7 +1,17 @@
-export default function Users(){
+import { use } from "react"
+
+export default function Users({userList}){
+
+    const users = use(userList)
+    console.log(users)
+
+    const usersStyle = {
+        border : "2px solid blue",
+        margin : "5px"
+    }
     return(
-        <div>
-            <h1>users</h1>
+        <div style={usersStyle}>
+            <h1>users : {userList.length}</h1>
         </div>
     )
 }
