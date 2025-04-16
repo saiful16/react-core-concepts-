@@ -1,0 +1,43 @@
+[
+    {
+      "id": "1",
+      "cover": "https://i.ibb.co/JWYkcjDq/image25.jpg",
+      "title": "10 Tools Every Web Developer Should Know in 2025",
+      "author-name": "Jane Doe",
+      "author-img": "https://i.ibb.co/BKLZWK5F/vecteezy-a-scientist-working-in-a-lab-male-character-doing-a-5607850.jpg",
+      "posted-time": "2025-04-10T14:32:00Z",
+      "reading-time": "7 min read",
+      "hash-tags": ["development", "vite"]
+    },
+    {
+      "id": "2",
+      "cover": "https://i.ibb.co/Jjk7HQy9/image23.jpg",
+      "title": "Understanding the JavaScript Event Loop",
+      "author-name": "Mark Johnson",
+      "author-img": "https://i.ibb.co/BV9zyGS0/vecteezy-a-scientist-experiment-in-the-lab-on-template-6763919.jpg",
+      "posted-time": "2025-04-08T09:20:00Z",
+      "reading-time": "5 min read",
+      "hash-tags": ["front-end", "design"]
+    },
+    {
+      "id": "3",
+      "cover": "https://i.ibb.co/JRzsXQ6x/image10.jpg",
+      "title": "React Server Components Explained with Examples",
+      "author-name": "Emily Chen",
+      "author-img": "https://randomuser.me/api/portraits/women/68.jpg",
+      "posted-time": "2025-04-05T17:10:00Z",
+      "reading-time": "8 min read",
+      "hash-tags": ["project", "react"]
+    },
+    {
+        "id": "4",
+        "cover": "https://i.ibb.co/sp9s2xXz/image8.jpg",
+        "title": "How to Improve Web Performance with Lazy Loading",
+        "author-name": "Liam Parker",
+        "author-img": "https://randomuser.me/api/portraits/men/72.jpg",
+        "posted-time": "2025-04-12T11:45:00Z",
+        "reading-time": "6 min read",
+        "hash-tags": ["mobile apps", "resources"]
+      }      
+  ]
+  
